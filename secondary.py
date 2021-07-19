@@ -44,6 +44,10 @@ print(
 #
 #
 # Write Code Below #
+symbol = input("gimme symbol! ")
+startStop = int(input("gimme number! "))
+for i in range(-startStop, startStop):
+    print(symbol*abs(i))
 
 
 # 3 - for Loop | Patterns
@@ -66,6 +70,8 @@ print(
 #
 #
 # Write Code Below #
+for i in range(startStop, -startStop):
+    print(symbol*i)
 
 
 # ---------- Part 2 | Mathematical Patterns ---------- #

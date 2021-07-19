@@ -25,6 +25,9 @@ print(
 #
 # Write Code Below #
 
+for i in range(5):
+    print("Kai!")
+
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -39,7 +42,8 @@ print(
 #   4
 #
 # Write Code Below #
-
+for i in range(5):
+    print(i)
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,7 +63,10 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
+num = int(input("gimme a number! "))
 
+for i in range(num):
+    print(i*"#")
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
@@ -82,6 +89,10 @@ print(
 #   a
 #
 # Write Code Below #
+name = "kai"
+
+for i in range(len(name)-1):
+    print(name[i])
 
 
 # 2 - for Loop | Printing the User's Name
@@ -105,6 +116,10 @@ print(
 #   e
 #
 # Write Code Below #
+name = "kai m. mitchell"
+
+for i in range(len(name)-1):
+    print(name[i])
 
 
 # ---------- Part 3 | range() variations ---------- #
@@ -142,7 +157,8 @@ print(
 #   24
 #
 # Write Code Below #
-
+for i in range(10,25):
+    print(i)
 
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
@@ -163,3 +179,4 @@ print(
 #
 # Write Code Below #
 
+for i in range()
