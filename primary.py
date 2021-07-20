@@ -116,10 +116,10 @@ for i in range(len(name)-1):
 #   e
 #
 # Write Code Below #
-name = "kai m. mitchell"
+name2 = "kai m. mitchell"
 
-for i in range(len(name)-1):
-    print(name[i])
+for i in range(len(name2)-1):
+    print(name2[i])
 
 
 # ---------- Part 3 | range() variations ---------- #
@@ -179,4 +179,5 @@ for i in range(10,25):
 #
 # Write Code Below #
 
-for i in range()
+for i in range(-5, 5):
+  print(i)

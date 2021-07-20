@@ -22,6 +22,11 @@ print(
 #      $
 #
 # Write Code Below #
+symbol = input("gimme symbol homie :) ")
+size=int(input("gimme size homie :) "))
+
+for i in range(size):
+  print(" "*(i) + symbol*(size-i))
 
 
 # 2 - for Loop | Patterns
@@ -46,7 +51,7 @@ print(
 # Write Code Below #
 symbol = input("gimme symbol! ")
 startStop = int(input("gimme number! "))
-for i in range(-startStop, startStop):
+for i in range(-startStop, startStop+1):
     print(symbol*abs(i))
 
 
@@ -70,8 +75,11 @@ for i in range(-startStop, startStop):
 #
 #
 # Write Code Below #
-for i in range(startStop, -startStop):
+for i in range(startStop):
     print(symbol*i)
+
+for i in range(startStop,0,-1):
+  print(symbol*i)
 
 
 # ---------- Part 2 | Mathematical Patterns ---------- #
@@ -94,7 +102,12 @@ print(
 #   >> 55
 #
 # Write Code Below #
+n = int(input("enter an integer: "))
+sum = 0
+for i in range(n):
+  sum += n-i 
 
+print("thee sum is:", sum)
 
 # 1 - for Loop | n!
 #   a. Prompt input from the user in the form of an integer. Save to a variable named n.
@@ -111,3 +124,10 @@ print(
 #   >> 55
 #
 # Write Code Below #
+
+n = int(input("enter an integer: "))
+prod = 1
+for i in range(n):
+  prod *= n-i 
+
+print("thee sum is:", prod)
